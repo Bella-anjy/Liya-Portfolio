@@ -1,12 +1,25 @@
 :root {
  --font-family: "Space Grotesk", sans-serif;
- --bg-color: #f0f0f0;
+ --bg-color: #ffffff;
+ --second-bg-color: #f6f6f6;
   --text-color: #000000;
+  --main-color: #9083d5;
+}
+[data-theme = 'dark'] {
+ --font-family: "Space Grotesk", sans-serif;
+  --bg-color: #1f242d;
+  --second-bg-color: #323946;
+  --text-color: #ffffff;
+  --main-color: #0ef;
 }
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
+  outline: none;
+  border: none;
+  font-family: var(--font-family);
 }
 a {
   font-weight: 500;
@@ -24,4 +37,21 @@ body {
   font-family: var(--font-family);
   background-color: var(--bg-color);
   color: var(--text-color);
+  transition: all 0.3s ease;
 }
+html{
+  /* width: 62.5%; */
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  transition: all 0.3s ease;
+  scroll-padding-top: 80px;
+}
+html ::-webkit-scrollbar-track {
+  background-color: var(--bg-color);} 
+html ::-webkit-scrollbar {
+  width: 0.8rem;
+}
+html ::-webkit-scrollbar-thumb {
+  background-color: var(--text-color);
+}
+

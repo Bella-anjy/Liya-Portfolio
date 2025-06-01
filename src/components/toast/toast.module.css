@@ -1,0 +1,33 @@
+/* components/toast/toast.module.css */
+.toast {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  font-size: 14px;
+  color: white;
+  z-index: 9999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 250px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.success {
+  background-color: #28a745;
+}
+
+.error {
+  background-color: #dc3545;
+}
+
+.closeBtn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  margin-left: 1rem;
+  cursor: pointer;
+}

@@ -1,0 +1,107 @@
+.educationContainer {
+  margin-top: -4rem;
+}
+.educationHeader {
+  text-align: center;
+  justify-content: center;
+}
+.educationTitle {
+  font-size: 32px;
+  font-weight: 800;
+  display: inline-block;
+  border-bottom: 3px solid var(--main-color);
+  padding-bottom: 0.5rem;
+  color: var(--text-color);
+}
+.education {
+  display: flex;
+}
+.educationContent {
+  flex: 1;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+.educationItem {
+  border-radius: 2rem;
+  padding: 1rem 1rem;
+  border: 2px solid var(--main-color);
+}
+.educationItem:hover {
+  background-color: var(--second-bg-color);
+  color: var(--text-color);
+  cursor: pointer;
+}
+.div {
+  display: flex;
+  gap: 5rem;
+}
+.div p {
+  margin-top: 0.3rem;
+}
+.diva {
+  display: flex;
+  margin-top: 0.3rem;
+  gap: 16.5rem;
+  margin-bottom: 0.3rem;
+}
+.divb {
+  display: flex;
+  gap: 16.5rem;
+}
+.divb p {
+  margin-top: 0.3rem;
+}
+.divc {
+  display: flex;
+  gap: 18.5rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+.educationContain {
+  flex: 1;
+  margin-top: 2rem;
+  margin-left: 3rem;
+}
+.educationText {
+  margin-left: 1rem;
+}
+.educationIteme{
+  border-radius: 2rem;
+  padding: 0.9rem 1rem;
+  border: 2px solid var(--main-color);
+  margin-top: 1rem;
+}
+.educationIteme:hover {
+  background-color: var(--second-bg-color);
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+@media (max-width: 995px) {
+  .educationContainer {
+    margin-top: 5rem;
+  }
+  .education{
+    display: flex;
+    flex-direction: column;
+  }
+  .educationText{
+    text-align: center;
+  }
+  .educationContain{
+    justify-content: center;
+  }
+}
+@media (max-width: 530px) {
+  .div p, .diva p {
+    display: none;
+  }
+  .divb p{
+    display: none;
+  }
+  .divc p{
+    display: none;
+  }
+}

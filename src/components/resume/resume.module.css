@@ -1,0 +1,72 @@
+.resumeContainer{
+  margin-top: 12rem;
+}
+.resumeHead{
+text-align: center;
+}
+.resumeTitle{
+ font-size: 32px;
+ font-weight: 800;
+ display: inline-block;
+ padding-bottom: 0.4rem;
+ border-bottom: 3px solid var(--main-color);
+}
+.resumeContent{
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ margin-top: 5rem;
+ background-color: var(--second-bg-color);
+ box-shadow: 0 0 25px var(--main-color);
+ width: 40%;
+ margin-left: 23rem;
+}
+.fileIcon{
+  font-size: 4rem;
+  margin-top: 3rem;
+  color: var(--text-color);
+}
+.resumeContent h3{
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  font-weight: 600;
+}
+.resumeContent h4{
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 2rem;
+  text-align: center;
+}
+.resumeBtn{
+ background-color: var(--text-color);
+ padding: 10px 15px;
+ font-size: 14px;
+ cursor: pointer;
+ border-radius: 0.5rem;
+ bottom: none;
+ margin-top: 3rem;
+color: var(--second-bg-color);
+margin-bottom: 4rem;
+}
+
+
+
+@media (max-width:995px) {
+  .resumeContent{
+    margin: 0 auto;
+    width: 50%;
+  }
+  .resumeTitle{
+    margin-bottom: 3rem;
+  }
+}
+@media (max-width: 768px) {
+  .resumeContent{
+    width: 60%;
+  }
+}
+@media (max-width:570px) {
+  .resumeContent{
+    width: 75%;
+  }
+}

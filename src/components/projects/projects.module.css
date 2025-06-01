@@ -1,0 +1,122 @@
+.projectContainer {
+  margin-top: 10rem;
+}
+
+.projectHead {
+  text-align: center;
+}
+
+.projectTitle {
+  display: inline-block;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid var(--main-color);
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.projectSemiTitle {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--text-color);
+  margin-top: 2rem;
+}
+
+.projectContent {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.projectCard {
+  position: relative;
+  border-radius: 2rem;
+  box-shadow: 0 0 1rem var(--bg-color);
+  overflow: hidden;
+}
+
+.cardImage {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  transition: 0.5s ease;
+  display: block;
+}
+
+.projectCard:hover .cardImage {
+  transform: scale(1.1);
+}
+
+/* ✅ Overlay layer */
+.projectLayer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.10), var(--main-color));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 4rem;
+  transform: translateY(100%);
+  transition: 0.5s ease;
+  color: white;
+  text-align: center;
+}
+
+/* ✅ Show overlay on hover */
+.projectCard:hover .projectLayer {
+  transform: translateY(0%);
+}
+
+.projectLayer h4 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.projectLayer p {
+  font-size: 1rem;
+  margin: 0.3rem 0 1rem;
+}
+
+.projectLayer a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  background: var(--text-color);
+  color: var(--bg-color);
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: background 0.3s ease;
+}
+
+.projectLayer a:hover {
+  background: white;
+  color: var(--main-color);
+}
+
+
+
+@media (max-width: 995px) {
+  .projectContent{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+}
+@media (max-width:768px) {
+  .projectContent{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .cardImage{
+    height: 400px;
+
+  }
+}

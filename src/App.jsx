@@ -2,6 +2,10 @@ import "./App.css";
 import {
   Navbar,
   Hero,
+  About,
+  Blog,
+  Education,
+  Resume,
   Skills,
   Projects,
   Contact,
@@ -12,18 +16,30 @@ const App = () => {
   return (
     <>
       <section>
-        <h2>Hello Portfolio</h2>
+        {/* <h2>Hello Portfolio</h2> */}
         {/* Navbar */}
         <Navbar />
         {/* Navbar */}
         {/* Hero Section */}
         <Hero />
         {/* Hero Section */}
-        {/* Skills Section */}
+        {/* About Section */}
+        <About />
+        {/* About Section */}
+        {/* Blog Section */}
+        <Education />
+        {/* Blog Section */}
+        {/* Education Section */}
         <Skills />
+        {/* Education Section */}
+        {/* Resume Section */}
+        <Projects />
+        {/* Resume Section */}
+        {/* Skills Section */}
+        <Resume />
         {/* Skills Section */}
         {/* Projects Section */}
-        <Projects />
+        <Blog />
         {/* Projects Section */}
         {/* Contact Section */}
         <Contact />

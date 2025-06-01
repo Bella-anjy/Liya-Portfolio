@@ -1,0 +1,120 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--bg-color);
+  padding: 1rem 6%;
+  align-items: center;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 2rem;
+  color: var(--text-color);
+  font-weight: 600;
+  cursor: pointer;
+}
+.logo:hover {
+  color: var(--main-color);
+  transition: color 0.3s ease;
+}
+.navLists {
+  display: flex;
+  gap: 1rem;
+  margin-left: 33rem;
+}
+
+.navLink {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navList {
+  font-size: 1.1rem;
+  color: var(--text-color);
+  transition: 0.3s;
+}
+
+.navList:hover {
+  color: var(--main-color);
+  border-bottom: 2px solid var(--text-color);
+  cursor: pointer;
+}
+
+.menuIcon {
+  display: none;
+  font-size: 2rem;
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+.rightControls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.themeToggle {
+  background: none;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  border: none;
+  color: var(--text-color);
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+@media (max-width: 995px) {
+  .menuIcon {
+    display: block;
+  }
+  .navList {
+    display: block;
+    font-size: 1.3rem;
+    margin: 3rem 0;
+  }
+  .navList:hover {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border-bottom: 0.5rem solid var(--main-color);
+  }
+  .navbar {
+    padding: 1rem 5%;
+    position: absolute;
+    position: fixed ;
+    z-index: 1000;
+    top: 0;
+  }
+  .navLists {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 40%;
+    border-left: 3px solid var(--main-color);
+    border-bottom: 3px solid var(--main-color);
+    border-bottom-left-radius: 2rem;
+    padding: 1rem 3%;
+    background-color: var(--second-bg-color);
+    border-top: 0;
+    display: none; /* hidden by default */
+    border-top: 0.1rem solid var(--main-color);
+  }
+
+  /* NEW: Show navLists when menu toggled open */
+  .navLists.showMenu {
+    display: block;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .rightControls {
+    gap: 0.5rem;
+  }
+}
+

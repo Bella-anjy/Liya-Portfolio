@@ -1,0 +1,49 @@
+.aboutContainer{
+ margin-top: 15rem;
+ 
+}
+.aboutHeader{
+  text-align: center;
+  justify-content: center;
+}
+.aboutTitle{
+ text-align: center;
+ font-size: 32px;
+ font-weight: 800;
+ display: inline-block;
+ justify-content: center;
+ border-bottom: 3px solid var(--main-color);
+  padding-bottom: 0.5rem;
+  margin: 0 auto;
+}
+.aboutContent{
+  display: flex;
+  margin-top: 2rem;
+  gap: 1.2rem;
+}
+.aboutImage{
+  width: 100%;
+  height: 78%;
+  border-radius: 10px;
+}
+.textContent{
+  width: 100%;
+
+}
+.aboutText{
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: var(--text-color);
+}
+.aboutTexts{
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: var(--text-color);
+}
+@media (max-width:995px) {
+  .aboutContent{
+    flex-direction: column;
+    align-items: center;
+  }
+}
