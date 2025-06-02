@@ -15,7 +15,7 @@ const Resume = () => {
           Download my resume to learn more about my experience, skills, and
           qualifications.
         </h4>
-        <a href="/public/MY CV.pdf" download="MY CV.pdf">
+        <a href="/MY CV.pdf" download="MY CV.pdf">
           <button className={styles.resumeBtn}>
             <IoMdDownload className={styles.icon} /> Download My CV
           </button>

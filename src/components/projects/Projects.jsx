@@ -21,7 +21,7 @@ const Projects = () => {
               effortlessly.
             </p>
             <a
-              href="https://bella-anjy.github.io/DMS-APPLICATION-ASSIGNMENT-/"
+              href="https://dms-application-assignment.vercel.app/"
               target="_blank"
             >
               <FaExternalLinkAlt className={styles.linkIcon} />
@@ -41,7 +41,7 @@ const Projects = () => {
               discovery.
             </p>
             <a
-              href="https://bella-anjy.github.io/Landing-page-assignment-/"
+              href="https://estate-management-page.vercel.app/"
               target="_blank"
             >
               <FaExternalLinkAlt className={styles.linkIcon} />
@@ -60,7 +60,7 @@ const Projects = () => {
               Crafting a modern estate landing page for smarter home searching.
             </p>
             <a
-              href="https://bella-anjy.github.io/Estate-management-page/"
+              href="https://landing-page-assignment-delta.vercel.app/"
               target="_blank"
             >
               <FaExternalLinkAlt className={styles.linkIcon} />
