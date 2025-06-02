@@ -27,7 +27,7 @@ const Hero = () => {
           </div>
 
           <div className={styles.btn}>
-            <a href="/public/MY CV.pdf" download="MY CV.pdf">
+            <a href="/MY CV.pdf" download="MY CV.pdf">
               <button className={styles.btnse}>
                 <IoMdDownload className={styles.icon} /> Download My CV
               </button>
