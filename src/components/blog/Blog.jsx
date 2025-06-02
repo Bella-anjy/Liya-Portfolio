@@ -13,7 +13,7 @@ const Blog = () => {
       <div className={styles.blogContent}>
         <div className={styles.blogCard}>
           <img
-            src="/public/blog-card1.jpg"
+            src="/blog-card1.jpg"
             alt=""
             className={styles.blogImage}
           />
@@ -39,7 +39,7 @@ const Blog = () => {
         </div>
         <div className={styles.blogCard}>
           <img
-            src="/public/blog-card2.jpg"
+            src="/blog-card2.jpg"
             alt=""
             className={styles.blogImage}
           />
@@ -64,7 +64,7 @@ const Blog = () => {
         </div>{" "}
         <div className={styles.blogCard}>
           <img
-            src="/public/blog-card3.jpg"
+            src="/blog-card3.jpg"
             alt=""
             className={styles.blogImage}
           />
