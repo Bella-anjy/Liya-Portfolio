@@ -62,13 +62,13 @@
 }
 .message {
   height: 8rem;
-  width: 83%;
+  width: 88%;
 }
 .inputWrapper2 {
   margin-top: 2rem;
 }
 .inpute {
-  width: 85%;
+  width: 90%;
   height: 3rem;
   border-radius: 0.5rem;
   margin-left: 0.5rem;
@@ -170,7 +170,7 @@ Input {
     flex-direction: column;
   }
   .firstContact {
-    text-align: center;
+    /* text-align: center; */
   }
   .secondContact {
     /* display: flex; */
@@ -193,6 +193,16 @@ Input {
     gap: 1rem;
   }
   .input{
-    width: 70%;
+    width: 85%;
   }
+  .inpute{
+    width: 85%;
+  }
+  .message{
+  width: 83%;
+  }
+  .contactBtn{
+    margin-left: 4rem;
+  }
+  
 }

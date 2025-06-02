@@ -114,7 +114,7 @@ const Contact = () => {
                 value={formData.email}
                 onChange={handleChange}
                 className={styles.input}
-                label="Email:"
+                label="Your Email:"
               />
             </div>
             <div className={styles.inputWrapper2}>
