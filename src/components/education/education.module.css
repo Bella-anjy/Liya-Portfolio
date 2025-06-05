@@ -85,6 +85,7 @@
   }
   .education{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
   }
   .educationText{
@@ -92,9 +93,10 @@
   }
   .educationContain{
     justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: -0.5rem;
   }
-}
-@media (max-width: 530px) {
   .div p, .diva p {
     display: none;
   }
@@ -103,5 +105,9 @@
   }
   .divc p{
     display: none;
+  }
+  .educationContain{
+  align-items: center;
+  justify-content: center;
   }
 }

@@ -107,6 +107,7 @@ const Contact = () => {
                 className={styles.input}
                 label="First Name:"
               />
+
               <Input
                 type="email"
                 name="email"
@@ -116,8 +117,7 @@ const Contact = () => {
                 className={styles.input}
                 label="Your Email:"
               />
-            </div>
-            <div className={styles.inputWrapper2}>
+
               <Input
                 type="text"
                 name="subject"
@@ -127,12 +127,11 @@ const Contact = () => {
                 className={styles.inpute}
                 label="Subject:"
               />
-            </div>
-            <div className={styles.inputWrapper3}>
+
               <Input
                 type="text"
                 name="message"
-                placeholder="Message"
+                // placeholder="Message"
                 value={formData.message}
                 onChange={handleChange}
                 className={styles.message}
@@ -178,14 +177,6 @@ const Contact = () => {
               href="https://www.instagram.com/harleeyah.0/"
             >
               <FaInstagram />
-            </a>
-            <a
-              className={styles.iconO}
-              target="_blank"
-              rel="noreferrer"
-              href="https://www.youtube.com/"
-            >
-              <FaYoutube />
             </a>
             <a
               className={styles.iconO}

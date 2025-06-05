@@ -96,3 +96,12 @@
       width: 50vw;
     }
   }
+  @media (max-width: 500px) {
+    .buttons{
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+    }
+  }

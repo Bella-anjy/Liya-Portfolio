@@ -5,3 +5,8 @@
 .footerContainer p{
   text-align: center;
 }
+@media (max-width: 995px) {
+  .footerContainer p{
+    text-align: center;
+  }
+}

@@ -33,7 +33,7 @@ const Blog = () => {
               target="_blank"
               className={styles.link}
             >
-              Read more <FaArrowRight className={styles.arrowRight} />
+              Read more 
             </a>
           </div>
         </div>
@@ -58,7 +58,7 @@ const Blog = () => {
             "
               target="_blank"
             >
-              Read more <FaArrowRight className={styles.arrowRight} />
+              Read more
             </a>
           </div>
         </div>{" "}
@@ -83,7 +83,7 @@ const Blog = () => {
             "
               target="_blank"
             >
-              Read more <FaArrowRight className={styles.arrowRight} />
+            Read more
             </a>
           </div>
         </div>

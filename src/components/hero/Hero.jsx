@@ -6,10 +6,10 @@ const Hero = () => {
   return (
     <section className={styles.heroContainer} id="home">
       <section className={styles.heroContent}>
-        <h3 className={styles.heroTitle}>Hello, It's Me</h3>
+        <h3 className={styles.heroTitle}>Hi, I am</h3>
         <h1 className={styles.heroName}>Aliyah Olubiyo</h1>
         <h3 className={styles.heroPara}>
-          And I'm a <span>Full Stack Developer</span>
+          I'm a <span>Full Stack Developer</span>
         </h3>
         <p className={styles.heroDesc}>
           Creative full stack developer passionate about crafting responsive,
